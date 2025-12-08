@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int t;
+    cin>>t;
+
+    while(t--){
+        int a,b,c,d;
+        cin>>a>>b>>c>>d;
+
+        cout<<(a==b && b==c && c==d ? "YES":"NO")<<endl;
+    }
+}
